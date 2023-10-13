@@ -1,0 +1,34 @@
+Node.js é um ambiente de servidor de código aberto
+Node.js é gratuito
+Node.js é executado em várias plataformas (Windows, Linux, Unix, Mac OS X, etc.)
+Node.js usa JavaScript no servidor
+-Node.js usa programação assíncrona
+
+
+Aqui está como PHP ou ASP lidam com uma solicitação de arquivo:
+
+Envia a tarefa para o sistema de arquivos do computador.
+Aguarda enquanto o sistema de arquivos abre e lê o arquivo.
+Retorna o conteúdo ao cliente.
+Pronto para atender a próxima solicitação.
+
+Veja como o Node.js lida com uma solicitação de arquivo:
+
+Envia a tarefa para o sistema de arquivos do computador.
+Pronto para atender a próxima solicitação.
+Quando o sistema de arquivos abre e lê o arquivo, o servidor retorna o conteúdo ao cliente.
+O Node.js elimina a espera e simplesmente continua com a próxima solicitação.
+
+Node.js executa programação assíncrona, sem bloqueio e de thread único, que é muito eficiente em termos de memória.
+
+O que o Node.js pode fazer?
+Node.js pode gerar conteúdo de página dinâmico
+Node.js pode criar, abrir, ler, gravar, excluir e fechar arquivos no servidor
+Node.js pode coletar dados de formulário
+Node.js pode adicionar, excluir e modificar dados em seu banco de dados
+
+O que é um arquivo Node.js?
+Os arquivos Node.js contêm tarefas que serão executadas em determinados eventos
+Um evento típico é alguém tentando acessar uma porta no servidor
+Os arquivos Node.js devem ser iniciados no servidor antes de terem qualquer efeito
+Os arquivos Node.js têm extensão ".js"
