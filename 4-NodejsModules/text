@@ -1,0 +1,5 @@
+MÓDULOS NODEJS
+
+- Para incluir um módulo utilizar require(), com o nome do módulo
+  ex: let http = require('http')  
+  Agora sua aplicação tem acesso ao módulo HTTP e pode criar um servidor:
