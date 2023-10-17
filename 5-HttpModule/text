@@ -1,0 +1,17 @@
+O Nodejs possui um módulo integrado chamado http, que permite ao nodejs transferir dados através
+do Hyper Text Transfer Protocol (HTTP)
+
+- let http = require('http')
+
+Node como servidor web
+- O http pode criar um server http que escuta as portas do servidor e retorna uma resposta ao cliente
+- createServer() para criar o servidor http
+
+Adicionar cabeçalho http
+  - Se a resposta do servidor HTTP for exibida como HTML, é preciso incluir um cabeçalho HTTP com o tipo de conteúdo correto:
+    - res.writeHead(200, {'Content-Type': 'text/html'});
+    O primeiro argumento do res.writeHead()método é o código de status, 200 significa que está tudo bem, o segundo argumento é um objeto contendo os cabeçalhos de resposta.
+
+Ler a string de consulta
+  - A função passada para http.createServer() possui um 'req' argumento que representa a solicitação do cliente, como um objeto (objeto http.IncomingMessage)
+  - Este objeto possui uma propriedade chamada "url" que contém a parte da url que vem depois do nome de domínio:
