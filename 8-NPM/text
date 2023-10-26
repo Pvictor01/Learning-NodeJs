@@ -1,0 +1,6 @@
+NPM é um gerenciador de pacotes para pacotes Node.js ou módulos, se desejar.
+NPM é instalado em seu computador quando você instala o Node.js
+
+O que é um pacote?
+- Um pacote em Node.js contém todos os arquivos necessários para um módulo.
+- Módulos são bibliotecas JavaScript que você pode incluir em seu projeto.
